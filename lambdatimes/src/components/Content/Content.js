@@ -43,7 +43,7 @@ export default class Content extends Component {
         - else, it should only return those cards whose 'tab' matched this.state.selected.
     */
    if(this.state.selected === 'all'){
-     return this.state.cards
+     return this.state.cards;
    }
     return this.state.selected;
   };
